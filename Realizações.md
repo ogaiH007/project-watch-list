@@ -3,7 +3,7 @@
 #### Passos Realizados
 
 1. **Escolha das Tecnologias**:
-   - Backend: Python, Django, PostgreSQL
+   - Backend: Python, Django, MySQL
    - Frontend: React, Bootstrap
    - Testes: Jest (Frontend), pytest (Backend)
    - Documentação da API: Postman
@@ -31,13 +31,13 @@
    - Criar um ambiente virtual para o projeto Django para isolar as dependências.
 
 2. **Instalar Django e Dependências**:
-   - Instalar o Django e a biblioteca para conexão com o PostgreSQL.
+   - Instalar o Django e a biblioteca para conexão com o MySQL.
 
 3. **Criar o Projeto Django**:
    - Iniciar um novo projeto Django e configurar as definições iniciais.
 
 4. **Configurar o Banco de Dados**:
-   - Configurar a conexão com o PostgreSQL no arquivo `settings.py`.
+   - Configurar a conexão com o MySQL no arquivo `settings.py`.
 
 5. **Criar Aplicações Django**:
    - Criar as aplicações necessárias para o projeto (por exemplo, uma aplicação para gerenciar animes).
