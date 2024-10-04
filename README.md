@@ -4,7 +4,7 @@ Este projeto é uma aplicação para registrar e gerenciar uma lista de animes, 
 
 ## Tecnologias Utilizadas
 
-- **Backend**: Django com PostgreSQL
+- **Backend**: Django com MySQL
 - **Frontend**: React com Bootstrap
 - **Testes**: Jest (Frontend) e pytest (Backend)
 - **Documentação da API**: Postman
@@ -12,17 +12,23 @@ Este projeto é uma aplicação para registrar e gerenciar uma lista de animes, 
 ## Instalação
 
 1. Clone o repositório:
+   ```bash
    git clone https://github.com/seu-usuario/lista-de-animes.git
    cd lista-de-animes
+   ```
 
 2. Configure o ambiente virtual e instale as dependências para o backend:
+   ```bash
    cd backend
    python -m venv venv
    source venv/bin/activate  # Para Windows: venv\Scripts\activate
    pip install -r requirements.txt
+   ```
 
 3. Para o frontend, navegue até a pasta e instale as dependências:
+   ```bash
    cd ../frontend
    npm install
+   ```
 
 4. Inicie os servidores para backend e frontend.
